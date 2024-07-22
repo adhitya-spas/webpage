@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spastopia</title>
+    <link rel="stylesheet" href="style_projects.css">
+    <link rel="stylesheet2" href="style_stars.css">
+    <!-- <link rel="stylesheet3" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet2" type="text/css">
+    <!-- <link rel="stylesheet" href="./styleAnim.css"> -->
+    <script src="https://kit.fontawesome.com/c468423951.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="stelle bianche"></div>
+    <div class="stelle giganti"></div>
+
+    <div id="header_projects">
+        <div class="container">
+            <nav>
+                <img src="images/logo_new.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- <div class="header-text">
+                <p>Doing my Graduation</p>
+                <h1>Hi, I'am <span>Adhitya</span> Shreyas Sripennem, <br>friends also call me <span>SPAS</span></h1>
+            </div> -->
+        </div>
+    </div>
+    <!-- ---------Projects-------- -->
+    <!-- <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+
+
+            <div class="projects-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <p1 More Projects >>></p1>
+    </div> -->
+
+    <!-- My Projects-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Research Experience & Projects</h1>
+            <ul class="grid">
+                <!-- Project 1: MAXWELL-->
+                <li class="fullwidth-hover">
+                    <div class="image-wrapper"><img src="images/icon/Final_Maxwell_Badge_2.png" alt="Maxwell Cubesat" style="width: 40%; height: auto;"></div>
+                    <h2 style="text-align: center;">MAXWELL Small Satellite</h2>
+                    <h3>Command & Data Handling/ Flight Software</h3>
+                    <button type="button" data-quick-view>View more</button>
+                </li>
+                <li class="fullwidth is-hidden" id="quickview-01">
+                    <h1 style="color: #eeeeee" class="typewrite" data-period="2000" data-type='[ "<u>M</u>ultiple <u>A</u>ccess <u>X</u>-band <u>W</u>ave <u>E</u>xperiment <u>L</u>ocated in <u>L</u>EO" ]'></h1>
+                    <span class="wrap"></span>
+                    <div class="image-text-container">
+                        <img src="images/icon/Final_Maxwell_Badge_2.png" alt="Maxwell Satellite CU Boulder Aerospace Engineering Cubesat" class="image" style="width: auto; height: 20vh;">
+                        <div class="text">
+                            <h3 style="color: #eeeeee; font-weight: 200;"><span class="first-word">PI: </span> Dr. Scott Palo (University of Colorado Boulder)</h3>
+                            <h3 style="color: #eeeeee; font-weight: 200; margin-top: 12px;"><span class="first-word">PROJECT ROLE: </span> Command & Data Handling/ Flight Software Lead</h3>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT DESCRIPTION: </span>Managing Flight Software with focus on CET (Command Execution Test) and DITL (Day in the Life). Also involved with hardware development, testing and debugging. Currently working on flight software interface with other subsystems (ADCS, EPS, PLDC and Comms) using LASP-HYDRA ground support emulator.</p>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT SKILLS: </span>Embedded Systems, PCB Design, Embedded C, HYDRA (LASP), Spacecraft Systems </p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Project 2: CANVAS-->
+                <li class="fullwidth-hover">
+                    <div class="image-wrapper"><img src="images/icon/CANVAS_Logo.png" alt="CANVAS Cubesat" style="width: 50%; height: auto;"></div>
+                    <h2 style="text-align: center;">CANVAS Small Satellite</h2>
+                    <h3>Instrumentation & Data Validation</h3>
+                    <button type="button" data-quick-view>View more</button>
+                </li>
+                <li class="fullwidth is-hidden" id="quickview-02">
+                    <h1 style="color: #eeeeee" class="typewrite" data-period="2000" data-type='[ "<u>C</u>limatology of <u>A</u>nthropogenic and <u>N</u>atural <u>V</u>LF wave <u>A</u>ctivity in <u>S</u>pace" ]'></h1>
+                    <span class="wrap"></span>
+                    <div class="image-text-container">
+                        <img src="images/icon/CANVAS_Logo.png" alt="CANVAS Satellite CU Boulder Aerospace Engineering Cubesat" class="image" style="width: auto; height: 20vh;">
+                        <div class="text">
+                            <h3 style="color: #eeeeee; font-weight: 200;"><span class="first-word">PI: </span> Dr. Robert Marshall (University of Colorado Boulder)</h3>
+                            <h3 style="color: #eeeeee; font-weight: 200; margin-top: 12px;"><span class="first-word">PROJECT ROLE: </span> Instrumentation Lead | FPGA Testing & Validation</h3>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT DESCRIPTION: </span>First involved in writing Test scripts to model the FPGA, using fast Fourier transforms (FFTs) to reduce the data collected from the satellite. Parse packets of data into science data for data analysis and validate with instrument results. Testing the B-Field and E-Field instrument with Frequency Response Analysis, Sensitivity and Cross Talk. Proceeding with Day-in-the-Life test to test instrument and algorithm using signal generators to simulate upper atmosphere signals.</p>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT SKILLS: </span>Electromagnetic Waves, FPGA Algorithm, Embedded Systems, Python, Signal Processing, Data Analysis, Instrument Testing</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Project 3: DELTA-->
+                <li class="fullwidth-hover">
+                    <div class="image-wrapper"><img src="images/icon/DELTA_Logo.png" alt="DELTA Mission Design Proposal" style="width: 50%; height: auto;"></div>
+                    <h2 style="text-align: center;">DELTA Mission Proposal</h2>
+                    <h3>Instrumentation & Mission Design</h3>
+                    <button type="button" data-quick-view>View more</button>
+                </li>
+                <li class="fullwidth is-hidden" id="quickview-03">
+                    <h1 style="color: #eeeeee" class="typewrite" data-period="2000" data-type='[ "Mission Proposal for <u>D</u>ensity <u>E</u>xp<u>L</u>orer <u>T</u>riplet <u>A</u>rray" ]'></h1>
+                    <span class="wrap"></span>
+                    <div class="image-text-container">
+                        <img src="images/icon/DELTA_Logo.png" alt="DELTA Space Mission Design and Development CU Boulder Aerospace Engineering" class="image" style="width: auto; height: 20vh;">
+                        <div class="text">
+                            <h3 style="color: #eeeeee; font-weight: 200;"><span class="first-word">Course: </span> ASEN/ASTR 5440/5780: Mission Design & Development for Space Science (University of Colorado Boulder)</h3>
+                            <h3 style="color: #eeeeee; font-weight: 200; margin-top: 12px;"><span class="first-word">PROJECT ROLE: </span> Instruments & Design</h3>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT DESCRIPTION: </span>Small satellite mission to study Plasmaspheric Refilling and a spatio-temporal study of Density Ducts in the Earth's Magnetosphere. Prepared detailed <a href="docs/DELTA_proposal_final_WATERMARK.pdf">report</a> on Science objectives and Mission Design. Involved in Instrumentation, 3D model of the spacecraft and Science Traceability Matrix.</p>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT SKILLS: </span>Space Mission Design, Mission Proposal Writing, LaTeX, Team Management, Magnetospheric Science</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Project 4: ELYSIUM-->
+                <li class="fullwidth-hover">
+                    <div class="image-wrapper"><img src="images/icon/ELYSIUM-FINAL-LOGO.png" alt="Elysium Space Mission Design and Concept" style="width: 60%; height: auto;"></div>
+                    <h2 style="text-align: center;">ELYSIUM Mission Design</h2>
+                    <h3>Command & Data Handling/ Flight Software</h3>
+                    <button type="button" data-quick-view>View more</button>
+                </li>
+                <li class="fullwidth is-hidden" id="quickview-04">
+                    <h1 style="color: #eeeeee" class="typewrite" data-period="2000" data-type='[ "Mission Design for ELYSIUM - Mission to Resurrect Spitzer" ]'></h1>
+                    <span class="wrap"></span>
+                    <div class="image-text-container">
+                        <img src="images/icon/ELYSIUM-FINAL-LOGO.png" alt="DELTA Space Mission Design and Development CU Boulder Aerospace Engineering" class="image" style="width: auto; height: 20vh;">
+                        <div class="text">
+                            <h3 style="color: #eeeeee; font-weight: 200;"><span class="first-word">Course: </span> ASEN 5148: Spacecraft Design (University of Colorado Boulder)</h3>
+                            <h3 style="color: #eeeeee; font-weight: 200; margin-top: 12px;"><span class="first-word">PROJECT ROLE: </span> Command & Data Handling Subsystem Lead</h3>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT DESCRIPTION: </span>Our team led the design and development of an autonomous satellite mission with a dual purpose: assist the Spitzer Space Telescope and search for Near Earth Objects (NEOs). Through rigorous <a href="docs\Elysium_PDR_doc_rev3_WATERMARK.pdf">reviews</a> (CoDR and PDR), we refined our mission concept. Our satellite autonomously locates and assists Spitzer, acting as a data relay conduit. My role focused on the Command & Data Handling Subsystem, where I curated components, designed wiring interfaces, prepared a data budget and co-led the Flight Software System using NASA CFS. This project exemplifies our commitment to space exploration and cutting-edge technology. </p>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT SKILLS: </span> Autonomous in-Space servicing, NASA CFS, Embedded Systems, Space Mission Design</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Project 5: Mars-->
+                <li class="fullwidth-hover">
+                    <div class="image-wrapper"><img src="images/icon/Mars_Express_pillars.png" alt="Mars Express MARSIS data analysis" style="width: 60%; height: auto;"></div>
+                    <h2 style="text-align: center;">MARS EXPRESS</h2>
+                    <h3>Analysis of Ionospheric data from MARSIS</h3>
+                    <button type="button" data-quick-view>View more</button>
+                </li>
+                <li class="fullwidth is-hidden" id="quickview-05">
+                    <h1 style="color: #eeeeee" class="typewrite" data-period="2000" data-type='[ "<u>M</u>ars <u>A</u>dvanced <u>R</u>adar for <u>S</u>ubsurface and <u>I</u>onosphere <u>S</u>ounding" ]'></h1>
+                    <span class="wrap"></span>
+                    <div class="image-text-container">
+                        <img src="images/icon/Mars_Express_pillars.png" alt="Mars Subsurface Ionosphere Radar Project" class="image" style="width: auto; height: 20vh;">
+                        <div class="text">
+                            <h3 style="color: #eeeeee; font-weight: 200;"><span class="first-word">Course: </span> ASEN 5245: Radar and Remote Sensing (University of Colorado Boulder)</h3>
+                            <h3 style="color: #eeeeee; font-weight: 200; margin-top: 12px;"><span class="first-word">PROJECT TITLE: </span> Analysis of Ionospheric data from MARSIS</h3>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT DESCRIPTION: </span>Utilized data from MARSIS (Mars Advanced Radar for Subsurface and Ionosphere Sounding) to conduct a comprehensive <a href="docs\RADAR_project_WATERMARK.pdf">analysis</a> of the Martian ionosphere. Generated ionograms and applied the Chapman profile on ionospheric soundings to derive essential parameters contributing to a deeper understanding of Mars' ionospheric characteristics.  </p>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT SKILLS: </span> Ionospheric Sounding, Radar Systems, Signal Processing, Planetary Radio Science</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Project 6: Minor Project-->
+                <li class="fullwidth-hover">
+                    <div class="image-wrapper"><img src="images/icon/Mars_Express_pillars.png" alt="Mars Express MARSIS data analysis" style="width: 60%; height: auto;"></div>
+                    <h2 style="text-align: center;">MARS EXPRESS</h2>
+                    <h3>Analysis of Ionospheric data from MARSIS</h3>
+                    <button type="button" data-quick-view>View more</button>
+                </li>
+                <li class="fullwidth is-hidden" id="quickview-05">
+                    <h1 style="color: #eeeeee" class="typewrite" data-period="2000" data-type='[ "<u>M</u>ars <u>A</u>dvanced <u>R</u>adar for <u>S</u>ubsurface and <u>I</u>onosphere <u>S</u>ounding" ]'></h1>
+                    <span class="wrap"></span>
+                    <div class="image-text-container">
+                        <img src="images/icon/Mars_Express_pillars.png" alt="Mars Subsurface Ionosphere Radar Project" class="image" style="width: auto; height: 20vh;">
+                        <div class="text">
+                            <h3 style="color: #eeeeee; font-weight: 200;"><span class="first-word">Course: </span> ASEN 5245: Radar and Remote Sensing (University of Colorado Boulder)</h3>
+                            <h3 style="color: #eeeeee; font-weight: 200; margin-top: 12px;"><span class="first-word">PROJECT TITLE: </span> Analysis of Ionospheric data from MARSIS</h3>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT DESCRIPTION: </span>Utilized data from MARSIS (Mars Advanced Radar for Subsurface and Ionosphere Sounding) to conduct a comprehensive <a href="docs\RADAR_project_WATERMARK.pdf">analysis</a> of the Martian ionosphere. Generated ionograms and applied the Chapman profile on ionospheric soundings to derive essential parameters contributing to a deeper understanding of Mars' ionospheric characteristics.  </p>
+                            <p style="color: #eeeeee; font-weight: 120; margin-top: 12px;"><span class="first-word">PROJECT SKILLS: </span> Ionospheric Sounding, Radar Systems, Signal Processing, Planetary Radio Science</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ---------Portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Publications & Conferences</h1>
+            <!-- <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people in the world. Download the app from the play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people in the world. Download the app from the play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people in the world. Download the app from the play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div> -->
+            <a href="#" class="btn">I Progress</a>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+    <!-- ------------contact----------  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>adhityashreyas.p@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+1 720-561-0206</p>
+                    <div class="social-icons">
+                      <a href="https://www.facebook.com/adhitya.shreyas/"><i class="fab fa-facebook"></i></a>
+                      <a href="https://orcid.org/0000-0003-2464-7944"><i class="fab fa-orcid"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/adhityaspas"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="docs/Adhitya_Resume_Graduate.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright and Acknowledgements in Github Repository.</p>
+        </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "30px 10px";
+            document.getElementById("logo").style.fontSize = "25px";
+          } else {
+            document.getElementById("navbar").style.padding = "80px 10px";
+            document.getElementById("logo").style.fontSize = "35px";
+          }
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxAoCKNXyPYm-qsBs1pipEkerDn8Rizo2TuyLQ3ULg78nZcpruvjT03aPyvzYxeMiSv/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+              msg.innerHTML = "Message sent successfully";
+              setTimeout(function() {
+                msg.innerHTML = "";
+              }, 5000);
+              form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+      </script>
+    <script  src="./scriptAnim.js"></script>
+    <script>
+        const quickViewButtons = document.querySelectorAll('[data-quick-view]');
+        const closeButtons = document.querySelectorAll('[data-close]');
+        const fullwidthCards = document.querySelectorAll('.fullwidth');
+        let toggle; // Quick view <button>.
+        let toggleParent; // <li>.
+        let fullwidth; // Fullwidth card to be "injected".
+
+        const openQuickView = (toggle, toggleParent, fullwidth) => {
+            toggle.setAttribute('aria-expanded', 'true');
+            toggleParent.classList.toggle('is-selected');
+            fullwidth.classList.toggle('is-hidden');
+            // Make fullwidth card keyboard focusable.
+            fullwidth.setAttribute('tabIndex', '0');
+        };
+
+        const closeQuickView = (toggle, toggleParent, fullwidth) => {
+            toggle.setAttribute('aria-expanded', 'false');
+            toggleParent.classList.toggle('is-selected');
+            fullwidth.classList.toggle('is-hidden');
+            fullwidth.removeAttribute('tabIndex');
+        };
+
+        quickViewButtons.forEach(quickView => {
+            // Add appropriate ARIA attributes for "toggle" behaviour.
+            fullwidth = quickView.parentElement.nextElementSibling;
+            quickView.setAttribute('aria-expanded', 'false');
+            quickView.setAttribute('aria-controls', fullwidth.id);
+
+            quickView.addEventListener('click', (e) => {
+                toggle = e.target;
+                toggleParent = toggle.parentElement;
+                fullwidth = toggleParent.nextElementSibling;
+
+                // Open (or close) fullwidth card.
+                if (toggle.getAttribute('aria-expanded') === 'false') {
+                    // Do we have another fullwidth card already open? If so, close it.
+                    fullwidthCards.forEach(fullwidthOpen => {
+                        if (!fullwidthOpen.classList.contains('is-hidden')) {
+                            toggleParentOpen =
+                                fullwidthOpen.previousElementSibling;
+                            toggleOpen = toggleParentOpen.querySelector(
+                                '[data-quick-view]'
+                            );
+
+                            closeQuickView(toggleOpen, toggleParentOpen, fullwidthOpen);
+                        }
+                    });
+
+                    openQuickView(toggle, toggleParent, fullwidth);
+                } else {
+                    closeQuickView(toggle, toggleParent, fullwidth);
+                }
+            });
+        });
+
+        closeButtons.forEach(close => {
+            close.addEventListener('click', (e) => {
+                fullwidth = e.target.parentElement;
+                toggleParent = e.target.parentElement.previousElementSibling;
+                toggle = toggleParent.querySelector('[data-quick-view]');
+
+                closeQuickView(toggle, toggleParent, fullwidth);
+                toggle.focus(); // Return keyboard focus to "toggle" button.
+            });
+        });
+    </script>
+    <script>
+        var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.maxLoops = 1; // Set the desired number of loops (e.g., 1 for typing once)
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = false; //changed this from true to false
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        if (this.loopNum >= this.maxLoops) {
+            return; // Stop the animation after maxLoops iterations
+        }
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+    </script>
+</body>
+</html>
