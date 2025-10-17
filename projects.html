@@ -5,34 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spastopia</title>
     <link rel="stylesheet" href="style_projects.css">
-    <link rel="stylesheet2" href="style_stars.css">
+    <link rel="stylesheet" href="style_stars.css">
     <!-- <link rel="stylesheet3" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet2" type="text/css">
     <!-- <link rel="stylesheet" href="./styleAnim.css"> -->
     <script src="https://kit.fontawesome.com/c468423951.js" crossorigin="anonymous"></script>
 </head>
 <style>
-  /* Make section headings white */
-  #portfolio .sub-title,
-  #awards .sub-title { color:#fff; }
-
-  /* Make list text white */
-  #portfolio .pub-list,
-  #portfolio .pub-list li,
-  #awards .award-list,
-  #awards .award-list li { color:#fff; }
-
-  /* Make italics readable and links pop */
-  #portfolio .pub-list em,
-  #awards .award-list em { color:#fff; font-style:italic; }
-  #portfolio .pub-list a,
-  #awards .award-list a { color:#8fd3ff; text-decoration:none; }
-  #portfolio .pub-list a:hover,
-  #awards .award-list a:hover { text-decoration:underline; }
-
-  /* Optional: slight glow for readability on star bg */
-  #portfolio .pub-list li,
-  #awards .award-list li { text-shadow: 0 0 6px rgba(0,0,0,0.4); }
+    /* Fix weird spacing/justification in Publications & Awards */
+    #portfolio .pub-list,
+    #awards .award-list{
+      display:block !important;     /* kill any flex/grid inheritance */
+      list-style:none;               /* no bullets (or change to 'disc' if you want bullets) */
+      padding-left:0;
+      margin:0;
+      text-align:left;               /* stop text-align: justify globals */
+      text-justify:auto;
+      max-width:900px;               /* optional: keep readable width */
+    }
+    
+    /* Each item: normal block, clean left alignment */
+    #portfolio .pub-list li,
+    #awards .award-list li{
+      display:list-item;             /* ensure it's a blocky list item */
+      margin:0 0 10px 0;
+      line-height:1.6;
+      letter-spacing:normal;         /* undo any global letter-spacing */
+      word-spacing:normal;           /* undo any global word-spacing */
+      white-space:normal;            /* prevent odd wrapping */
+    }
+    
+    /* If some global rule set ul to justify content via flex, hard stop it */
+    #portfolio .pub-list li,
+    #awards .award-list li{
+      flex:none !important;
+      width:auto !important;
+    }
+    
+    /* Optional: use bullets instead */
+    #portfolio .pub-list.with-bullets li,
+    #awards .award-list.with-bullets li{
+      list-style:disc;
+      margin-left:1.2em;
+    }
 </style>
 <body>
 
@@ -530,5 +545,6 @@
     </script>
 </body>
 </html>
+
 
 
