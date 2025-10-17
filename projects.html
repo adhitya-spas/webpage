@@ -11,7 +11,29 @@
     <!-- <link rel="stylesheet" href="./styleAnim.css"> -->
     <script src="https://kit.fontawesome.com/c468423951.js" crossorigin="anonymous"></script>
 </head>
+<style>
+  /* Make section headings white */
+  #portfolio .sub-title,
+  #awards .sub-title { color:#fff; }
 
+  /* Make list text white */
+  #portfolio .pub-list,
+  #portfolio .pub-list li,
+  #awards .award-list,
+  #awards .award-list li { color:#fff; }
+
+  /* Make italics readable and links pop */
+  #portfolio .pub-list em,
+  #awards .award-list em { color:#fff; font-style:italic; }
+  #portfolio .pub-list a,
+  #awards .award-list a { color:#8fd3ff; text-decoration:none; }
+  #portfolio .pub-list a:hover,
+  #awards .award-list a:hover { text-decoration:underline; }
+
+  /* Optional: slight glow for readability on star bg */
+  #portfolio .pub-list li,
+  #awards .award-list li { text-shadow: 0 0 6px rgba(0,0,0,0.4); }
+</style>
 <body>
 
     <div class="stelle bianche"></div>
@@ -508,4 +530,5 @@
     </script>
 </body>
 </html>
+
 
